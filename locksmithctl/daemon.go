@@ -47,6 +47,7 @@ var (
 	etcdServices = []string{
 		"etcd.service",
 		"etcd2.service",
+		"etcd-member.service",
 	}
 
 	// TODO(mischief): daemon is not really a seperate package. it probably should be.
